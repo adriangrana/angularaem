@@ -1,3 +1,4 @@
+import { MapTo } from '@adobe/aem-angular-editable-components';
 import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
@@ -13,4 +14,7 @@ export class Page2Component implements OnInit {
   ngOnInit(): void {
   }
 
+
 }
+
+MapTo('bancoestado/components/cta-list')(Page2Component);
