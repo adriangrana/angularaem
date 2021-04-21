@@ -1,6 +1,10 @@
 import { MapTo } from '@adobe/aem-angular-editable-components';
 import { Component, Input, OnInit } from '@angular/core';
-
+const page1Config = {
+  emptyLabel: 'Please author at leaast on item',
+  isEmpty: cqModel =>
+  !cqModel || !cqModel.data || cqModel.data.length < 1
+  };
 @Component({
   selector: 'app-page1',
   templateUrl: './page1.component.html',
@@ -8,7 +12,7 @@ import { Component, Input, OnInit } from '@angular/core';
 })
 export class Page1Component implements OnInit {
   @Input()
-  data: any;
+  data: object;
   constructor() { }
 
   ngOnInit(): void {
@@ -16,4 +20,5 @@ export class Page1Component implements OnInit {
 
 }
 
-MapTo('bancoestado/components/cta-list')(Page1Component);
+
+MapTo('bancoestado/components/cta-list')(Page1Component,page1Config);
