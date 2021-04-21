@@ -21,4 +21,4 @@ export class Page1Component implements OnInit {
 }
 
 
-MapTo('bancoestado/components/cta-list')(Page1Component,page1Config);
+MapTo('bancoestado/components/page1')(Page1Component,page1Config);
