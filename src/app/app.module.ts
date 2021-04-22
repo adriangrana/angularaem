@@ -5,7 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { Page1Module } from './page1/page1.module';
 import { Page2Module } from './page2/page2.module';
-import * as model  from '@adobe/aem-spa-page-model-manager';
+import {ModelManager}  from '@adobe/aem-spa-page-model-manager';
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
 @NgModule({
@@ -20,4 +20,11 @@ import { environment } from '../environments/environment';
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule { 
+ /**
+  *
+  */
+ constructor() {
+  ModelManager.initializeAsync();
+ }
+}
