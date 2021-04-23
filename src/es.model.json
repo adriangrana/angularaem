@@ -1,0 +1,20 @@
+{
+    "type" :"bancoestado/components/structure/page",
+    "children" :"",
+    "hierarchyType" :"",
+    "items" :"",
+    "itemsOrder" :"",
+    "path" :""
+}
+/* 
+:type:: Tipo del recurso AEM (predeterminado = tipo de recurso)
+
+:children:: Hijos jerárquicos del recurso actual. Los elementos secundarios no forman parte del contenido interno del recurso actual (se pueden encontrar en elementos que representan una página)
+
+:hierarchyType:: Tipo jerárquico de un recurso. El PageModelManager admite actualmente el tipo de página
+
+:items:: Recursos de contenido secundario del recurso actual (estructura anidada, solo presentes en contenedores)
+
+:itemsOrder:: Lista ordenada de los niños. El objeto de mapa JSON no garantiza el orden de sus campos. Al tener el mapa y la matriz actual, el consumidor de la API tiene las ventajas de ambas estructuras
+
+:path:: Ruta de contenido de un elemento (presente en elementos que representan una página) */
