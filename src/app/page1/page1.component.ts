@@ -1,7 +1,7 @@
 import { MapTo } from '@adobe/aem-angular-editable-components';
 import { Component, Input, OnInit } from '@angular/core';
 const page1Config = {
-  emptyLabel: 'Please author at leaast on item',
+  emptyLabel: 'data',
   isEmpty: cqModel =>
   !cqModel || !cqModel.data || cqModel.data.length < 1
   };
