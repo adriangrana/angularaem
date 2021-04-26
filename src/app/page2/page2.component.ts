@@ -14,11 +14,9 @@ export class Page2Component implements OnInit {
   @Input()
   data: object;
   constructor() { }
-
   ngOnInit(): void {
   }
-
-
 }
-
+/* 
 MapTo('bancoestado/components/page2')(Page2Component,page2Config);
+ */

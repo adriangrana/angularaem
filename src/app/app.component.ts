@@ -22,7 +22,5 @@ export class AppComponent {
     this.items = model[Constants.ITEMS_PROP];
     this.itemsOrder = model[Constants.ITEMS_ORDER_PROP];
     console.log(this.path, this.items, this.itemsOrder);
-    
-  
   }
 }

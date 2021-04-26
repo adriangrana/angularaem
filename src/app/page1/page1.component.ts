@@ -20,5 +20,6 @@ export class Page1Component implements OnInit {
 
 }
 
-
+/* 
 MapTo('bancoestado/components/page1')(Page1Component,page1Config);
+ */

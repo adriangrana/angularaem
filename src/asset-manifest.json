@@ -6,6 +6,13 @@
   "display": "standalone",
   "scope": "./",
   "start_url": "./",
+  "entrypoints": [
+    "/runtime.js",
+    "/polyfills.js",
+    "/styles.js",
+    "/vendor.js",
+    "/main.js"
+  ],
   "icons": [
     {
       "src": "assets/icons/icon-72x72.png",
