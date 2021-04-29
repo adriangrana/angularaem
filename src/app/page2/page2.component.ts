@@ -17,6 +17,5 @@ export class Page2Component implements OnInit {
   ngOnInit(): void {
   }
 }
-/* 
-MapTo('bancoestado/components/page2')(Page2Component,page2Config);
- */
+
+MapTo('bech-site-prueba-remoto/components/page2')(Page2Component,page2Config);

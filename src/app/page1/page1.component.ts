@@ -20,6 +20,5 @@ export class Page1Component implements OnInit {
 
 }
 
-/* 
-MapTo('bancoestado/components/page1')(Page1Component,page1Config);
- */
+
+MapTo('bech-site-prueba-remoto/components/page1')(Page1Component,page1Config);

@@ -3,7 +3,11 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  appRoot:
+    "/content/bech-site-prueba-remoto/us/en/test-template.html", // tslint:disable-line
+  publicUrl:
+    '/etc.clientlibs/bech-site-prueba-remoto/clientlibs/clientlib-angular/resources'
 };
 
 /*
